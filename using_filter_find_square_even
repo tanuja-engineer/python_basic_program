@@ -1,0 +1,4 @@
+n=[10,8,7,5,3,1]
+even=list(filter(lambda x:  x%2==0 , n))
+result=list(map(lambda x: x*x,even))
+print(result)
